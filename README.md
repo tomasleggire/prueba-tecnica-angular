@@ -1,27 +1,26 @@
 # PruebaTecnicaAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+I+DIoT Lab - Prueba Técnica de Maquetado en Angular
 
-## Development server
+Este repositorio contiene mi solución para la prueba técnica de maquetado en Angular para I+DIoT Lab.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Instrucciones de Ejecución:
 
-## Code scaffolding
+Clona este repositorio: git clone https://github.com/TuUsuario/nombre-del-repo.git
+Instala dependencias: npm install
+Ejecuta la app: ng serve
+Ve a: http://localhost:4200
+Contenido:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Página de productos con lista de productos maquetada.
+Enfoque:
 
-## Build
+Diseño limpio y estructurado.
+Utilización de Angular para la creación del maquetado.
+Nota:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Este repositorio demuestra mi capacidad de maquetado en Angular y cumple con los requisitos de la prueba técnica.
 
-## Running unit tests
+Autor: Tomás Leggire
+Fecha: 16/8/2023
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
