@@ -6,19 +6,19 @@ Este repositorio contiene mi solución para la prueba técnica de maquetado en A
 
 Instrucciones de Ejecución:
 
-Clona este repositorio: git clone https://github.com/TuUsuario/nombre-del-repo.git
+Clona este repositorio: git clone https://github.com/tomasleggire/prueba-tecnica-angular
 Instala dependencias: npm install
 Ejecuta la app: ng serve
 Ve a: http://localhost:4200
+
 Contenido:
-
 Página de productos con lista de productos maquetada.
-Enfoque:
 
+Enfoque:
 Diseño limpio y estructurado.
 Utilización de Angular para la creación del maquetado.
-Nota:
 
+Nota:
 Este repositorio demuestra mi capacidad de maquetado en Angular y cumple con los requisitos de la prueba técnica.
 
 Autor: Tomás Leggire
