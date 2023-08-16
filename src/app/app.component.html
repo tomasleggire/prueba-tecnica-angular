@@ -1,18 +1,6 @@
 <div class="main-app">
   <div class="products-main-page">
-    <div class="products-main-header">
-      <mat-icon>menu</mat-icon>
-      <h1>Productos</h1>
-    </div>
-    <div class="products-main-browsers">
-      <div class="browsers-input-text">
-        <input type="text" placeholder="Escribe el producto que buscas..." />
-        <mat-icon>search</mat-icon>
-      </div>
-      <div class="browsers-input-scann">
-        <img src="./assets/icons/scann.png" alt="Boton Scanner" />
-      </div>
-    </div>
+    <app-products-page-header></app-products-page-header>
     <div class="products-list">
       <app-product-item
         *ngFor="let product of products"
@@ -20,5 +8,6 @@
         [productStates]="productStates"
       ></app-product-item>
     </div>
+    <app-main-menu [menuIcons]="menuIcons"></app-main-menu>
   </div>
 </div>

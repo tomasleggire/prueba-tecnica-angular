@@ -12,3 +12,8 @@ export interface ProductStates {
   visible: string;
 };
 
+export interface MainMenuIcons {
+  imgSrc: string;
+  name: string,
+  selected: boolean;
+}

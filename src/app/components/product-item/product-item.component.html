@@ -4,7 +4,11 @@
   </div>
   <div class="product-details">
     <div class="product-details-texts">
-      <h3>{{ product?.name }}</h3>
+      <h3>
+        <a [title]="product?.name">
+          {{ product?.name }}
+        </a>
+      </h3>
       <div [ngSwitch]="product?.state" [style]="'margin-top: 5px'">
         <h6
           *ngSwitchCase="productStates?.enabled"

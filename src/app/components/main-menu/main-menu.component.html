@@ -1,0 +1,9 @@
+<div class="main-menu">
+  <div
+    *ngFor="let menuIcon of menuIcons; let i = index"
+    [ngClass]="{ 'icon-selected': menuIcon.selected }"
+    (click)="changeSelected(i)"
+  >
+    <img [src]="menuIcon.imgSrc" [alt]="menuIcon.name" />
+  </div>
+</div>

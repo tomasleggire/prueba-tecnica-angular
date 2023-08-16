@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Product } from './product.model';
 import { ProductStates } from './product.model';
+import { MainMenuIcons } from './product.model';
 
 @Component({
   selector: 'app-root',
@@ -35,6 +36,34 @@ export class AppComponent {
       stock: false,
       price: 500,
       imgUrl: './assets/images/product3.png'
+    },
+  ]
+
+  menuIcons: MainMenuIcons[] = [
+    {
+      imgSrc: './assets/menu-icons/cart.png',
+      name: 'Cart',
+      selected: false,
+    },
+    {
+      imgSrc: './assets/menu-icons/store.png',
+      name: 'Store',
+      selected: false,
+    },
+    {
+      imgSrc: './assets/menu-icons/inbox.png',
+      name: 'Inbox',
+      selected: true,
+    },
+    {
+      imgSrc: './assets/menu-icons/chart.png',
+      name: 'Chart',
+      selected: false,
+    },
+    {
+      imgSrc: './assets/menu-icons/exit.png',
+      name: 'Exit',
+      selected: false,
     },
   ]
 }
