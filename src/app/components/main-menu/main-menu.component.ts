@@ -9,6 +9,7 @@ import { MainMenuIcons } from 'src/app/product.model';
 export class MainMenuComponent {
   @Input() menuIcons: MainMenuIcons[] | null = null;
 
+  //Funcion basica para cambiar el icono seleccionado del menu.
   changeSelected = (index: number) => {
     if (this.menuIcons) {
       for (let i = 0; i < this.menuIcons.length; i++) {
