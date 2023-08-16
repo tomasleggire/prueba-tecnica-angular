@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+$background-primary-color: #211F26;
+$background-secondary-color: #2C2934;
+$icons-color: #616370;
+$input-bg: #2B2930;
+$text-color: #CAC4D0;
+$black: rgb(0, 0, 0);
+$white: rgb(255, 255, 255);
+$enabled: #437330;
+$disabled: #5D0000;
+$visible: #857101;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  min-height: auto;
+}
